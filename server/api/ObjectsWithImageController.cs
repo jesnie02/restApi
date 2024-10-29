@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace api;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("")]
 public class ObjectsWithImageController : ControllerBase
 {
     private readonly ILogger<ObjectsWithImageController> _logger;
